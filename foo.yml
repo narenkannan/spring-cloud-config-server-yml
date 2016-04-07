@@ -2,8 +2,8 @@ env : development
 ---
 spring:
   profiles: staging
-env : staging
+env : playground-staging
 ---
 spring:
   profiles: production
-env : production
+env : playground-production
