@@ -1,0 +1,11 @@
+env : development
+---
+spring:
+  profiles:
+    active: staging
+env : staging
+---
+spring:
+  profiles:
+    active: production
+env : production
