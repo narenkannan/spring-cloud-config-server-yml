@@ -2,10 +2,10 @@ env : development
 ---
 spring:
   profiles:
-    active: staging
+    name: staging
 env : staging
 ---
 spring:
   profiles:
-    active: production
+    name: production
 env : production
